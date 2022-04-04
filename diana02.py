@@ -7,6 +7,11 @@ import xarray as xr
 #url = 'https://thredds.met.no/thredds/dodsC/mepslatest/meps_det_vc_2_5km_latest.nc'
 #data = xr.open_dataset(url)
 
-a = (range(67), range(1), range(1), range(32000))
+plt.ion()
 
-print(len(a[2]))
+plt.plot(range(50), np.linspace(0, 100, 50))
+plt.show()
+
+
+
+
